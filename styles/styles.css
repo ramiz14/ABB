@@ -50,7 +50,7 @@ nav a:nth-child(7){
     width: 10%;
 }
 .mid{
-    width: 75%;
+    width: 55%;
 }
 .hdr-right{
     width: 15%;
@@ -97,6 +97,9 @@ hr{
     color: #262626;
     margin-left: 10px;
 }
+.tel2{
+    display: none;
+}
 .tel{
     display: none;
 }
@@ -132,6 +135,59 @@ hr{
     #second{
         display: none;
     }
-
-    
+    .third-all{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .third-all .img{
+        width: 100%;
+    }
+    .third-all .txt{
+        width: 100%;
+        text-align: center;
+        margin-top: 40px
+    }
+    .third-all .txt h3{
+        font-size: 30px;
+        width: 100%
+    }
+    .third-all .txt h5{
+        font-size: 14px;
+        width: 100%
+    }
+    .third-all .img img{
+        width: 100%;
+        text-align: center;
+    }
+}
+#second{
+    margin-bottom: 30px
+}
+#third{
+    background-color: #ccd6ea;
+}
+.third-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.txt{
+    width: 40%;
+    margin-bottom: 7rem;
+}
+.img{
+    width: 40%;
+    margin-left: 40px
+}
+.img img{
+    width: 80%    
+}
+.txt h3{
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+.txt h5{
+    font-size: 25px;
+    margin-bottom: 50px;
 }
